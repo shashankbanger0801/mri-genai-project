@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Env
+.venv/
+venv/
+env/
+mri-genai/
+
+# MacOS
+.DS_Store
+
+# Data (do NOT track raw data)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+
+# Checkpoints
+checkpoints/*
+runs/*
+logs/*
+
+# Jupyter
+.ipynb_checkpoints/

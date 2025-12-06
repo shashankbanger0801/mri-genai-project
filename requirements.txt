@@ -1,0 +1,30 @@
+# Core ML
+torch
+torchvision
+torchaudio
+monai
+
+# Scientific computing
+numpy
+scipy
+nibabel
+h5py
+
+# Image & MRI utilities
+scikit-image
+opencv-python
+matplotlib
+
+# Training & config
+tqdm
+pyyaml
+
+# Web app
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# Optional
+jupyterlab
+notebook

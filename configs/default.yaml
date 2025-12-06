@@ -1,0 +1,8 @@
+model_name: convnext3d_unet   # or unet3d to go a bit faster initially
+data_dir: data/raw
+patch_size: [96, 96, 96]
+num_patches: 2      # fewer patches per volume -> faster
+batch_size: 1
+lr: 0.0002
+epochs: 1           # just to test everything works
+
